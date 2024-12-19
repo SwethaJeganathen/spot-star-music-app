@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>sign-up form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image:url(/wallpaper/wal1.jpeg);
+            background-size: cover;
+        }
+        .container{
+            top: 40%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        .card{
+            padding: 60px 40px 50px 40px;
+            background: none(50,50,50);
+            border-radius: 10px;
+        }
+        #name{
+            width: 250px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid white;
+            padding: 25px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        #button{
+            border-radius: 20px;
+            padding: 10px 20px;
+            background: rgb(65, 1, 17);
+            color: white;
+            margin-top: 20px;
+            border: none;
+            outline: none;
+            margin-left: 50px;
+        }
+        #button:hover{
+            background-color: rgb(2, 25, 46);
+            color: none;
+            cursor: pointer;
+        }
+        a{
+            font-size: 18px;
+        }
+        img{
+            border-radius:50%;
+            position: absolute;
+            margin-left: 110px;
+            margin-top: -40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>SignUp</h1>
+            <h4>It's free and only takes a minute</h4>
+            
+        <form>
+            <label>First Name</label>
+            <input type="text" placeholder="First Name"><br><br>
+            <label>Last Name</label>
+            <input type="text" placeholder="Last Name"><br><br>
+            <label>Email</label>
+            <input type=" email   " placeholder=" Email /Phone no "><br><br>
+            <label>password</label>
+            <input type="password" placeholder="password"><br><br>
+            <label>Confirm password</label>
+            <input type="password" placeholder="password"><br><br>
+            <a href="/music app clone/welcome.html" value="sign-up" id="button">sign-up</a><br><br>
+            <p>By clicking the Sign Up button, you agree to our
+            <a href="#">Terms and condition</a> and <a href="#">Policy And Privacy</a>
+            </p>
+            <p class="para-2">Already have an account? <a href="/music app clone/login.html">Login here</a></p>
+        </form>
+</body>
+</html>
